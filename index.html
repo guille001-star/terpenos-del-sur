@@ -4,7 +4,121 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Terpenos del Sur – ONG Cannabis Medicinal | Rawson, Chubut</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Paleta de colores */
+    :root {
+      --primary: #275d38;   /* Verde oscuro (ONG) */
+      --secondary: #e8f5e9; /* Verde claro (fondo destacado) */
+      --light: #faf9f6;     /* Beige claro (fondo principal) */
+      --text: #2c3e50;      /* Gris oscuro (texto) */
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--light);
+    }
+
+    header {
+      background-color: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background-color: var(--white);
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      margin: 0 0.5rem;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: var(--primary);
+      color: var(--white);
+      transform: translateY(-2px);
+    }
+
+    .highlight {
+      background-color: var(--secondary);
+      padding: 1.5rem;
+      border-left: 4px solid var(--primary);
+      margin: 2rem auto;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 0.5rem;
+    }
+
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--white);
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -14,10 +128,10 @@
   </header>
 
   <nav>
-    <a href="index.html">Inicio</a> |
-    <a href="sobre.html">Sobre Nosotros</a> |
-    <a href="proyectos.html">Proyectos</a> |
-    <a href="contacto.html">Contacto</a> |
+    <a href="index.html">Inicio</a>
+    <a href="sobre.html">Sobre Nosotros</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="contacto.html">Contacto</a>
     <a href="donar.html">Donar</a>
   </nav>
 
